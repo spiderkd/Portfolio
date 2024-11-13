@@ -30,9 +30,9 @@ const projects = [
         <p>
           Ever wondered what people really think but are too shy to say? Our
           anonymous feedback platform bridges the gap by allowing users to share
-          their thoughts freely. Whether it's constructive criticism, heartfelt
-          messages, or anonymous compliments, this space is all about open
-          expression.With the added power of AI, users can get generative
+          their thoughts freely. Whether it&apos;s constructive criticism,
+          heartfelt messages, or anonymous compliments, this space is all about
+          open expression.With the added power of AI, users can get generative
           message suggestions, making feedback even more engaging and easy to
           start. Perfect for anyone seeking honest feedback without the fear of
           judgment
