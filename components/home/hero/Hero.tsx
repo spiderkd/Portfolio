@@ -4,7 +4,7 @@ import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
-import Profile from "@/public/jc.jpg";
+import Profile from "@/public/ld.jpg";
 
 export const Hero = () => {
   return (
@@ -13,7 +13,7 @@ export const Hero = () => {
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              Hi, I&apos;m JC<span>.</span>
+              Hi, I&apos;m YASH KEDIA<span>.</span>
             </h1>
           </Reveal>
           <Reveal>
@@ -23,14 +23,17 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              I&apos;ve spent the last 3 years building and scaling applications for
-              some pretty cool companies and individuals. I also create interesting self projects on my spare time.
-              Let&apos;s connect!
+              I&apos;ve spent the last two years developing and scaling
+              applications through self-driven projects. Building interactive,
+              real-time, and feedback-driven apps is my thing, and I&apos;m
+              always working on something new. Let&apos;s connect!
             </p>
           </Reveal>
           <Reveal>
             <StandardButton
-              onClick={() => document.getElementById("contact")?.scrollIntoView()}
+              onClick={() =>
+                document.getElementById("contact")?.scrollIntoView()
+              }
             >
               Contact me
             </StandardButton>
@@ -39,12 +42,13 @@ export const Hero = () => {
         <motion.div
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.4 }}>
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
           <Image
             className={styles.profile}
             src={Profile}
             priority
-            alt="John Carlo Devera | Frontend Developer"
+            alt="yash kedia | Frontend Developer"
             width={250}
             height={250}
           />

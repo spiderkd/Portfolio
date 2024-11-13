@@ -26,19 +26,22 @@ export const SideBar = () => {
   }, []);
 
   return (
-    <div style={{background: "var(--background-dark)"}}>
+    <div style={{ background: "var(--background-dark)" }}>
       <motion.nav
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5 }}
         className={styles.sideBar}
       >
-        <span className={styles.logo} onClick={() => {
-          document.location.hash === "" ?
-          document.getElementById("main")?.scrollIntoView() :
-          document.location.hash = '';
-          }}>
-          JC<span>.</span>
+        <span
+          className={styles.logo}
+          onClick={() => {
+            document.location.hash === ""
+              ? document.getElementById("main")?.scrollIntoView()
+              : (document.location.hash = "");
+          }}
+        >
+          Yk<span>.</span>
         </span>
         <motion.a
           initial={{ x: -70 }}
@@ -62,7 +65,7 @@ export const SideBar = () => {
         >
           Projects
         </motion.a>
-        <motion.a
+        {/* <motion.a
           initial={{ x: -70 }}
           animate={{ x: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -71,7 +74,7 @@ export const SideBar = () => {
           className={selected === "experience" ? styles.selected : ""}
         >
           Exp.
-        </motion.a>
+        </motion.a> */}
         <motion.a
           initial={{ x: -70 }}
           animate={{ x: 0 }}

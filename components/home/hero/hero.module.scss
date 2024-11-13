@@ -53,14 +53,15 @@
   margin: 2rem;
   z-index: 10;
   position: relative;
+  object-fit: cover;
   margin-right: 9rem;
   border-radius: 50%;
   outline: solid;
   outline-width: 3px;
   outline-color: var(--brand);
   outline-offset: 6px;
-  transition: .4s;
-  
+  transition: 0.4s;
+
   &:hover {
     outline: dotted;
     outline-color: var(--brand);
@@ -83,8 +84,8 @@
     flex-wrap: wrap;
 
     .profile {
-      height: 150px;
-      width: 150px;
+      height: 190px;
+      width: 190px;
       margin-right: 0;
       margin-bottom: -30px;
       margin-top: 3rem;

@@ -18,146 +18,131 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Classified",
-    imgSrc: "/project-imgs/agency-listing.png",
-    code: "#",
-    projectLink: "#",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
-    description: "An Insurance Agency Listing Web Application.",
+    title: "No hard feeling feedback",
+    imgSrc: "/project-imgs/test3.png",
+    code: "https://github.com/spiderkd/No_hard_felling_feedback",
+    projectLink: "https://www.nohardfellingfeedback.xyz/",
+    tech: ["React", "Nextjs", "Tailwind", "Google generative ai"],
+    description:
+      "A dynamic feedback platform enabling anonymous message sharing with AI-generated suggestions for engaging interactions.",
     modalContent: (
       <>
         <p>
-          Worked as a front-end developer and created dynamic reusable
-          components and base layout from a mock-up.
+          Ever wondered what people really think but are too shy to say? Our
+          anonymous feedback platform bridges the gap by allowing users to share
+          their thoughts freely. Whether it's constructive criticism, heartfelt
+          messages, or anonymous compliments, this space is all about open
+          expression.With the added power of AI, users can get generative
+          message suggestions, making feedback even more engaging and easy to
+          start. Perfect for anyone seeking honest feedback without the fear of
+          judgment
         </p>
         <p>
           The tech stack is based on Nextjs with the custom tailwind components,
-          connected to a Prisma backend.
+          It uses google generative ai for the message suggestions.
         </p>
       </>
     ),
   },
   {
-    title: "Elancerz",
-    imgSrc: "/project-imgs/elancerz.png",
-    code: "https://www.github.com",
-    projectLink: "https://elancerz.com/",
-    tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Worked as a front-end developer and created dynamic reusable
-          components, integrated calendly, messaging and project management
-          features.
-        </p>
-        <p>
-          The tech stack is based on Nextjs with the custom Styled components,
-          connected to a Laravel backend, with data stored in Mysql.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Agency Iron Admin",
-    imgSrc: "/project-imgs/agency-iron-crm.png",
-    code: "https://www.github.com",
-    // projectLink: "https://agency-iron-crm.herokuapp.com/",
-    projectLink: "#",
-    tech: ["React", "MUI", "MongoDB", "Postgres", "Python"],
-    description:
-      "A Dashboard for clients and admin of Rocky Mountain West Insurance LLC. using Vuejs and re-worked using Reactjs.",
-    modalContent: (
-      <>
-        <p>
-          Worked as a front-end developer for this web application. Integrated
-          api&apos;s, Created dynamic and reusable components.
-        </p>
-        <p>
-          I work primarily on the frontend, creating reusable components and
-          integrating api.
-        </p>
-        <p>
-          The team in total consists of 3 developers. This is a passion project
-          for all of us.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "WorshipHIM",
-    imgSrc: "/project-imgs/wh_app.png",
-    code: "https://www.github.com",
+    title: "Yoom",
+    imgSrc: "/project-imgs/zoom.png",
+    code: "https://github.com/spiderkd/video_conference_app",
+
     projectLink:
-      "https://play.google.com/store/apps/details?id=com.ellinx.lightapps.worshiphim&hl=en&gl=US",
-    tech: ["React", "React Native", "Styled Components", "Android"],
+      "https://video-conference-zoom-clone.vercel.app/sign-in?redirect_url=https%3A%2F%2Fvideo-conference-zoom-clone.vercel.app%2F",
+    tech: ["Nextjs", "Tailwind", "Clerk Auth", "Stream.io"],
     description:
-      "WorshipHIM is a chord and lyrics app developed to help ease everyone in their worship to God.",
+      "A real-time anonymous messaging platform using Socket.IO for instant feedback and conversations, enhanced with AI-generated message suggestions.",
     modalContent: (
       <>
         <p>
-          WorshipHIM is a chord and lyrics app developed to help ease everyone
-          in their worship to God. So that all may know, from the rising of the
-          sun to its setting, That there is none besides God. He is the Lord and
-          there&apos;s no other! Praise Him, Worship Him!
-        </p>
-        <p>This is a very fun project that i made using React Native.</p>
-      </>
-    ),
-  },
-  {
-    title: "WorshipHIM Landing Page",
-    imgSrc: "/project-imgs/worshiphim.png",
-    code: "https://www.github.com",
-    projectLink: "https://worshiphim.vercel.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Google Play Scrapper", "Ko-Fi"],
-    description:
-      "Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.",
-    modalContent: (
-      <>
-        <p>
-          This is another self project that i made to showcase our mobile app.
+          Yoom is an innovative platform designed for anonymous, real-time
+          conversations and feedback. With Yoom, users can share their thoughts
+          without barriers, making it ideal for gathering honest opinions or
+          sharing secrets.
         </p>
         <p>
-          I integrated ko-fi donation and uses Template for this Nextjs Project.
-          I also use a plugin for scrapping data from our google play to display
-          directly on the landing page.
+          Leveraging Stream.io for seamless real-time messaging and enhanced
+          with AI-generated suggestions, Yoom offers a dynamic, interactive
+          experience where users can exchange messages instantly and
+          anonymously.
         </p>
       </>
     ),
   },
   {
-    title: "Portfolio v.2",
-    imgSrc: "/project-imgs/portfolio-01.png",
-    code: "https://github.com/jcdevz-dev/portfolio",
+    title: "Video Blog website Backend",
+    imgSrc: "/project-imgs/youtube.webp",
+    code: "https://github.com/spiderkd/youtube-backend",
+    projectLink: "",
+    tech: ["React", "Express", "MongoDB"],
+    description:
+      "A scalable and efficient backend for a YouTube-like platform, offering video uploads, streaming, user authentication, and real-time features.",
+    modalContent: (
+      <>
+        <p>
+          This backend code powers a YouTube-like platform with comprehensive
+          features such as user authentication, video uploads, and adaptive
+          streaming. It includes essential video-sharing functionalities like
+          managing likes, comments, subscriptions, and playlists. Users can
+          easily interact with videos, subscribe to channels, and create
+          personal playlists for a personalized experience.
+        </p>
+        <p>
+          The tech stack used is Javascript, express, MongoDB, Cloudinary, and
+          JWT for authentication.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Blogtube",
+    imgSrc: "/project-imgs/blog.png",
+    code: "https://github.com/spiderkd/BlogTube",
+
     projectLink: "#",
-    tech: ["React", "Styled Components", "Typescript", "Gatsby"],
-    description: "First Portfolio Made with React JS",
+    tech: ["React", "Appwrite", "Tailwind"],
+    description:
+      "A minimalist blog platform with rich text editing, user authentication, and CRUD functionality powered by React, Appwrite, and Tailwind CSS.",
     modalContent: (
       <>
         <p>
-          This is my second version of my portfolio that i made to showcase my
-          projects.
+          Dive into a seamless blogging experience with our minimalist platform,
+          designed for those who love to share ideas effortlessly. Built using
+          React and powered by Appwrite, this blog app features a clean and
+          intuitive interface, making it easy to create, edit, and manage your
+          content.
         </p>
-        <p>Trying out gatsby and creating my second version of portfolio</p>
+        <p>
+          The tech stack is based on Reactjs with the custom Styled components,
+          connected to a Appwrite backend, with images in cloudinary .
+        </p>
       </>
     ),
   },
   {
-    title: "Portfolio v.1",
-    imgSrc: "/project-imgs/portfolio-00.png",
-    code: "https://github.com/jcdevz-dev/jc-portfolio",
-    projectLink: "https://jc-devera.vercel.app/",
-    tech: ["React", "Styled Components", "Typescript"],
-    description: "First Portfolio Made with React JS",
+    title: "Real Time ChessGame",
+    imgSrc: "/project-imgs/chess.png",
+    code: "https://github.com/spiderkd/chessGame",
+    projectLink: "https://intelligent-truth-production.up.railway.app/",
+    tech: ["ejs", "Socket.io", "Chessjs"],
+    description:
+      "A real-time multiplayer chess game built with Socket.IO, featuring smooth move synchronization, timer management, and spectator mode.",
     modalContent: (
       <>
         <p>
-          This is my first version of my portfolio that i made to showcase my
-          projects.
+          Experience the classic game of chess for the digital age with
+          real-time multiplayer features. This interactive chess platform allows
+          players to compete seamlessly, with moves synchronized in real-time
+          using Socket.IO.
         </p>
-        <p>First step for learning React JS and creating my portfolio</p>
+        <p>
+          Simply enter the game lobby. The match begins automatically when two
+          players join the same room. The game also includes a timer for each
+          player, ensuring a fair and competitive experience. Spectators can
+          also join the game to watch the action unfold in real-time.
+        </p>
       </>
     ),
   },
