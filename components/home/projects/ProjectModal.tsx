@@ -55,8 +55,9 @@ export const ProjectModal = ({
           alt={`An image of the ${title} project.`}
           width={500}
           height={400}
+          // style={{ objectFit: "cover" }}
           className={styles.modalImage}
-          />
+        />
         {/* <img
           className={styles.modalImage}
           src={imgSrc}

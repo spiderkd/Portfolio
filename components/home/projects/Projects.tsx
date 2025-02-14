@@ -45,6 +45,34 @@ const projects = [
     ),
   },
   {
+    title: "INNOVATHON'25",
+    imgSrc: "/project-imgs/Innovathon.png",
+    code: "",
+
+    projectLink: "https://innovathonbits.bitsindri.ac.in/",
+    tech: ["Nextjs", "Tailwind", "Framer motion"],
+    description:
+      "A homepage designed for INNOVATHON'25, a state-level hackathon that brings together innovative minds to solve real-world problems with technology.",
+    modalContent: (
+      <>
+        <p>
+          For INNOVATHON'25, I designed a homepage that reflects the innovative
+          and forward-thinking nature of the event. The goal was to craft a
+          visually appealing interface that welcomes participants into an
+          environment where technology and creativity intersect, setting the
+          tone for the hackathon experience.
+        </p>
+        <p>
+          The project features a futuristic design using Next.js, Tailwind CSS,
+          and Framer Motion. The design prioritizes simplicity, usability, and
+          seamless interactivity. By combining dynamic animations with modern
+          web technologies, the homepage offers an engaging and responsive user
+          experience that reflects the innovative spirit of INNOVATHON'25.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Yoom",
     imgSrc: "/project-imgs/zoom.png",
     code: "https://github.com/spiderkd/video_conference_app",

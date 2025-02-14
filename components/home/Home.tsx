@@ -18,7 +18,7 @@ export const Home = () => {
           <Hero />
           <About />
           <Projects />
-          {/* <Experience /> */}
+          <Experience />
           <Contact />
           <div
             style={{
