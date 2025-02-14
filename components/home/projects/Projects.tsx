@@ -45,21 +45,21 @@ const projects = [
     ),
   },
   {
-    title: "INNOVATHON'25",
+    title: `INNOVATHON`,
     imgSrc: "/project-imgs/Innovathon.png",
     code: "",
 
     projectLink: "https://innovathonbits.bitsindri.ac.in/",
     tech: ["Nextjs", "Tailwind", "Framer motion"],
     description:
-      "A homepage designed for INNOVATHON'25, a state-level hackathon that brings together innovative minds to solve real-world problems with technology.",
+      "A homepage designed for INNOVATHON, a state-level hackathon that brings together innovative minds to solve real-world problems with technology.",
     modalContent: (
       <>
         <p>
-          For INNOVATHON'25, I designed a homepage that reflects the innovative
-          and forward-thinking nature of the event. The goal was to craft a
-          visually appealing interface that welcomes participants into an
-          environment where technology and creativity intersect, setting the
+          For INNOVATHON&apos;25, I designed a homepage that reflects the
+          innovative and forward-thinking nature of the event. The goal was to
+          craft a visually appealing interface that welcomes participants into
+          an environment where technology and creativity intersect, setting the
           tone for the hackathon experience.
         </p>
         <p>
@@ -67,7 +67,7 @@ const projects = [
           and Framer Motion. The design prioritizes simplicity, usability, and
           seamless interactivity. By combining dynamic animations with modern
           web technologies, the homepage offers an engaging and responsive user
-          experience that reflects the innovative spirit of INNOVATHON'25.
+          experience that reflects the innovative spirit of INNOVATHON&apos;25.
         </p>
       </>
     ),
