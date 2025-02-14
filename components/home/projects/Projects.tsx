@@ -101,7 +101,7 @@ const projects = [
   },
   {
     title: "Video Blog website Backend",
-    imgSrc: "/project-imgs/youtube.webp",
+    imgSrc: "/project-imgs/youtube.jpg`",
     code: "https://github.com/spiderkd/youtube-backend",
     projectLink: "",
     tech: ["React", "Express", "MongoDB"],
